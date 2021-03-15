@@ -18,16 +18,16 @@ fi
 MERGING="$4"
 BACKUP="/tmp/$(date +"%Y%d%m%H%M%S")"
 
-CMD=$(which code-insiders)
+CMD=$(which codium)
 
 if [ ! $CMD ] >/dev/null; then
-	if [ -e '/usr/local/bin/code-insiders' ]; then
-		CMD='/usr/local/bin/code-insiders'
+	if [ -e '/usr/local/bin/codium' ]; then
+		CMD='/usr/local/bin/codium'
 	fi
 fi
 
 if [ ! -x "$CMD" ]; then
-	echo "Visual Studio Code command line tool 'code-insiders' could not be found. Please make sure it has been installed in /usr/local/bin/." >&2
+	echo "Visual Studio Code command line tool 'codium' could not be found. Please make sure it has been installed in /usr/local/bin/." >&2
 	exit 128
 fi
 
