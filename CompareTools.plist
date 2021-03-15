@@ -44,7 +44,7 @@
             <key>LaunchScript</key>
             <string>vscodium.sh</string>
             <key>Identifier</key>
-            <string>code-insiders</string>
+            <string>codium</string>
             <key>SupportsMergeTool</key>
             <true/>
             <key>SupportsDiffChangeset</key>
