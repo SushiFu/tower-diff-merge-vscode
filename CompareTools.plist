@@ -18,5 +18,21 @@
             <key>SupportsDiffChangeset</key>
             <true/>
         </dict>
+        <dict>
+            <key>ApplicationIdentifier</key>
+            <string>com.microsoft.VSCodeInsiders</string>
+            <key>ApplicationName</key>
+            <string>Visual Studio Code Insiders</string>
+            <key>DisplayName</key>
+            <string>Visual Studio Code Insiders</string>
+            <key>LaunchScript</key>
+            <string>vscode-insiders.sh</string>
+            <key>Identifier</key>
+            <string>code-insiders</string>
+            <key>SupportsMergeTool</key>
+            <true/>
+            <key>SupportsDiffChangeset</key>
+            <true/>
+        </dict>
     </array>
 </plist>
