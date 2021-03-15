@@ -38,7 +38,7 @@
             <key>ApplicationIdentifier</key>
             <string>com.visualstudio.code.oss</string>
             <key>ApplicationName</key>
-            <string>Visual Studio Code Insiders</string>
+            <string>VSCodium</string>
             <key>DisplayName</key>
             <string>VSCodium</string>
             <key>LaunchScript</key>
